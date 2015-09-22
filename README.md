@@ -19,6 +19,7 @@ What I really ilke about this method is the simplicity. But there are a few othe
 - It's directly inspired by the way our brain approaches multiple object tracking (according to visual/cognitive theory)
 - Complex features may cause the tracker to drift, as their extraction reliability decreases with informativeness. We use them only when strictly necessary. And oftentimes, we don't really need them at all.
 - But if you have some favorite feature you want to try, well good news - our method is more of a framework than a simple method: you can easily add any new feature!
+- The clustering scheme and the combination of the features are not fixed, but rather governed by a number of parameters that the algorithm learns to adapt to new scenarios.
 - Simple associations are solved indipendently, thus enabling parallel processing.
 - Not least, the method is online, solving the tracking frame-by-frame.
 
